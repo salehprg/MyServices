@@ -16,21 +16,23 @@ namespace Authentication.Service
             SmsProviderNegin smsProviderNegin = new SmsProviderNegin();
             
             smsService.SendSMS("forgot password" , "09154807673" , smsProviderNegin);
+
+            return Task.CompletedTask;
         }
 
         public Task GetProfileInfo()
         {
-            
+            return Task.CompletedTask;
         }
 
         public Task Login()
         {
-            
+            return Task.CompletedTask;
         }
 
         public Task Register()
         {
-            
+            return Task.CompletedTask;
         }
     }
 }
